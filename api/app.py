@@ -22,28 +22,20 @@ app = Flask(__name__)
 # @app.route("/v1/kml3da/get-kml")
 @app.route("/")
 def kmlDownload():
-    # open file
+    # open static kml file
     with open("Paths1.KML", "r") as f:
         data = f.read()
-    # define string memory
+
+    # define string format memory
     proxy = io.StringIO(data)
-    # define bytes memory
+    # define bytes format memory
     mem = io.BytesIO()
+    # write str memory into bytes
     mem.write(proxy.getvalue().encode())
     mem.seek(0)
+    proxy.close()
 
-    # # for row in f:
-    # proxy = io.StringIO()
-    # writer = csv.writer(proxy)
-    # # writer.writerow(row)
-    # writer.writerow(f)
-    # # Creating the byteIO object from the StringIO Object
-    # mem.write(proxy.getvalue().encode())
-    # # seeking was necessary. Python 3.5.2, Flask 0.12.2
-    # mem.seek(0)
-    #
-    # proxy.close()
-
+    # send xml file
     return send_file(
         mem,
         as_attachment=True,
