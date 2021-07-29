@@ -13,19 +13,17 @@ app = Flask(__name__)
 
 
 # base route
-# @app.route("/")
-# def index():
-#     return "This is v1 Kizer modules API."
+@app.route("/")
+def index():
+    return "This is v1 Kizer modules API."
 
 
 # GET result KML file.
-# @app.route("/v1/kml3da/get-kml")
-@app.route("/")
+@app.route("/v1/kizermodules/kml3da", methods=['GET'])
 def kmlDownload():
     # open static kml file
     with open("Paths1.KML", "r") as f:
         data = f.read()
-
     # define string format memory
     proxy = io.StringIO(data)
     # define bytes format memory
@@ -39,7 +37,7 @@ def kmlDownload():
     return send_file(
         mem,
         as_attachment=True,
-        attachment_filename='paths-result.kml',
+        attachment_filename='result.kml',
         mimetype='text/kml'
     )
 
