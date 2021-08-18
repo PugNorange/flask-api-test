@@ -1,0 +1,11 @@
+
+	--==[ SPLAT! v1.4.2 Site Analysis Report For: WNJT-DT ]==--
+
+---------------------------------------------------------------------------
+
+Site location: 40.2828 North / 74.6864 West (40° 16' 58" N / 74° 41' 11" W)
+Ground elevation: 0.00 feet AMSL
+Antenna height: 990.00 feet AGL / 990.00 feet AMSL
+
+---------------------------------------------------------------------------
+
