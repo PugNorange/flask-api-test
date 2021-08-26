@@ -1,0 +1,18 @@
+{
+   "projectName": "Kizer API",
+   "production": {
+       "accessId": "IUT6HVRNW44BXLIBP4A7",
+       "secretKey": "7Qu740RUh3jJagUsPK1fCXw/S/U+gLrDX9ocOJlM2Vk",
+       "baseUrl": "http://192.168.86.249:5000/"
+   },
+   "development": {
+       "accessId": "IUT6HVRNW44BXLIBP4A7",
+       "secretKey": "7Qu740RUh3jJagUsPK1fCXw/S/U+gLrDX9ocOJlM2Vk",
+       "baseUrl": "http://192.168.86.249:5000/"
+   },
+   "test": {
+       "accessId": "IUT6HVRNW44BXLIBP4A7",
+       "secretKey": "7Qu740RUh3jJagUsPK1fCXw/S/U+gLrDX9ocOJlM2Vk",
+       "baseUrl": "http://192.168.86.249:5000/"
+   }
+}
