@@ -4,12 +4,13 @@
 ---------------------------------------------------------------------------
 
 Transmitter site: TX-site-01
-Site location: 45.5023 North / 237.0132 West (45° 30' 8" N / 237° 0' 47" W)
+Site location: 45.5805 North / 236.0651 West (45° 34' 49" N / 236° 3' 54" W)
 Ground elevation: 0.00 meters AMSL
-Antenna height: 137.16 meters AGL / 137.16 meters AMSL
-Distance to Rx-Site-01: 27.23 kilometers
-Azimuth to Rx-Site-01: 271.23 degrees
-Depression angle to Rx-Site-01: -0.1303 degrees
+Antenna height: 76.20 meters AGL / 76.20 meters AMSL
+Distance to Rx-Site-01: 101.38 kilometers
+Azimuth to Rx-Site-01: 265.84 degrees
+Depression angle to Rx-Site-01: -0.3179 degrees
+Depression angle to the first obstruction: -0.3177 degrees
 
 ---------------------------------------------------------------------------
 
@@ -17,9 +18,10 @@ Receiver site: Rx-Site-01
 Site location: 45.5071 North / 237.3625 West (45° 30' 25" N / 237° 21' 45" W)
 Ground elevation: 0.00 meters AMSL
 Antenna height: 118.87 meters AGL / 118.87 meters AMSL
-Distance to TX-site-01: 27.23 kilometers
-Azimuth to TX-site-01: 90.98 degrees
-Depression angle to TX-site-01: -0.0534 degrees
+Distance to TX-site-01: 101.38 kilometers
+Azimuth to TX-site-01: 84.92 degrees
+Depression angle to TX-site-01: -0.3661 degrees
+Depression angle to the first obstruction: -0.3660 degrees
 
 ---------------------------------------------------------------------------
 
@@ -40,22 +42,464 @@ Transmitter EIRP: 245.522 kilowatts (+83.90 dBm)
 
 Summary For The Link Between TX-site-01 and Rx-Site-01:
 
-Free space path loss: 114.68 dB
-ITWOM Version 3.0 path loss: 125.26 dB
-Attenuation due to terrain shielding: 10.58 dB
-Field strength at Rx-Site-01: 89.42 dBuV/meter
-Signal power level at Rx-Site-01: -41.36 dBm
-Signal power density at Rx-Site-01: -56.37 dBW per square meter
-Voltage across a 50 ohm dipole at Rx-Site-01: 2446.27 uV (67.77 dBuV)
-Voltage across a 75 ohm dipole at Rx-Site-01: 2996.05 uV (69.53 dBuV)
-Mode of propagation: Line of Sight
+Free space path loss: 126.10 dB
+ITWOM Version 3.0 path loss: 134.31 dB
+Attenuation due to terrain shielding: 8.21 dB
+Field strength at Rx-Site-01: 80.36 dBuV/meter
+Signal power level at Rx-Site-01: -50.41 dBm
+Signal power density at Rx-Site-01: -65.42 dBW per square meter
+Voltage across a 50 ohm dipole at Rx-Site-01: 862.72 uV (58.72 dBuV)
+Voltage across a 75 ohm dipole at Rx-Site-01: 1056.62 uV (60.48 dBuV)
+Mode of propagation: Double Horizon Diffraction Dominant
 ITWOM error number: 0 (No error)
 
 ---------------------------------------------------------------------------
 
+Between Rx-Site-01 and TX-site-01, SPLAT! detected obstructions at:
 
-No obstructions to LOS path due to terrain were detected by SPLAT!
+    45.5257 N, 237.0571 W, 23.89 kilometers,   0.00 meters AMSL
+    45.5258 N, 237.0563 W, 23.95 kilometers,   0.00 meters AMSL
+    45.5258 N, 237.0554 W, 24.02 kilometers,   0.00 meters AMSL
+    45.5259 N, 237.0546 W, 24.08 kilometers,   0.00 meters AMSL
+    45.5259 N, 237.0538 W, 24.15 kilometers,   0.00 meters AMSL
+    45.5260 N, 237.0530 W, 24.21 kilometers,   0.00 meters AMSL
+    45.5260 N, 237.0521 W, 24.28 kilometers,   0.00 meters AMSL
+    45.5261 N, 237.0513 W, 24.34 kilometers,   0.00 meters AMSL
+    45.5261 N, 237.0505 W, 24.41 kilometers,   0.00 meters AMSL
+    45.5262 N, 237.0496 W, 24.47 kilometers,   0.00 meters AMSL
+    45.5262 N, 237.0488 W, 24.54 kilometers,   0.00 meters AMSL
+    45.5263 N, 237.0480 W, 24.60 kilometers,   0.00 meters AMSL
+    45.5263 N, 237.0471 W, 24.67 kilometers,   0.00 meters AMSL
+    45.5263 N, 237.0463 W, 24.73 kilometers,   0.00 meters AMSL
+    45.5264 N, 237.0455 W, 24.80 kilometers,   0.00 meters AMSL
+    45.5264 N, 237.0446 W, 24.86 kilometers,   0.00 meters AMSL
+    45.5265 N, 237.0438 W, 24.93 kilometers,   0.00 meters AMSL
+    45.5265 N, 237.0430 W, 24.99 kilometers,   0.00 meters AMSL
+    45.5266 N, 237.0421 W, 25.06 kilometers,   0.00 meters AMSL
+    45.5266 N, 237.0413 W, 25.12 kilometers,   0.00 meters AMSL
+    45.5267 N, 237.0405 W, 25.19 kilometers,   0.00 meters AMSL
+    45.5267 N, 237.0396 W, 25.25 kilometers,   0.00 meters AMSL
+    45.5268 N, 237.0388 W, 25.32 kilometers,   0.00 meters AMSL
+    45.5268 N, 237.0380 W, 25.38 kilometers,   0.00 meters AMSL
+    45.5269 N, 237.0372 W, 25.45 kilometers,   0.00 meters AMSL
+    45.5269 N, 237.0363 W, 25.51 kilometers,   0.00 meters AMSL
+    45.5270 N, 237.0355 W, 25.58 kilometers,   0.00 meters AMSL
+    45.5270 N, 237.0347 W, 25.64 kilometers,   0.00 meters AMSL
+    45.5271 N, 237.0338 W, 25.71 kilometers,   0.00 meters AMSL
+    45.5271 N, 237.0330 W, 25.77 kilometers,   0.00 meters AMSL
+    45.5272 N, 237.0322 W, 25.84 kilometers,   0.00 meters AMSL
+    45.5272 N, 237.0313 W, 25.90 kilometers,   0.00 meters AMSL
+    45.5273 N, 237.0305 W, 25.97 kilometers,   0.00 meters AMSL
+    45.5273 N, 237.0297 W, 26.03 kilometers,   0.00 meters AMSL
+    45.5274 N, 237.0288 W, 26.10 kilometers,   0.00 meters AMSL
+    45.5274 N, 237.0280 W, 26.16 kilometers,   0.00 meters AMSL
+    45.5275 N, 237.0272 W, 26.23 kilometers,   0.00 meters AMSL
+    45.5275 N, 237.0263 W, 26.29 kilometers,   0.00 meters AMSL
+    45.5276 N, 237.0255 W, 26.36 kilometers,   0.00 meters AMSL
+    45.5276 N, 237.0247 W, 26.42 kilometers,   0.00 meters AMSL
+    45.5277 N, 237.0239 W, 26.49 kilometers,   0.00 meters AMSL
+    45.5277 N, 237.0230 W, 26.55 kilometers,   0.00 meters AMSL
+    45.5278 N, 237.0222 W, 26.62 kilometers,   0.00 meters AMSL
+    45.5278 N, 237.0214 W, 26.68 kilometers,   0.00 meters AMSL
+    45.5279 N, 237.0205 W, 26.75 kilometers,   0.00 meters AMSL
+    45.5279 N, 237.0197 W, 26.81 kilometers,   0.00 meters AMSL
+    45.5280 N, 237.0189 W, 26.88 kilometers,   0.00 meters AMSL
+    45.5280 N, 237.0180 W, 26.94 kilometers,   0.00 meters AMSL
+    45.5281 N, 237.0172 W, 27.01 kilometers,   0.00 meters AMSL
+    45.5281 N, 237.0164 W, 27.07 kilometers,   0.00 meters AMSL
+    45.5282 N, 237.0155 W, 27.14 kilometers,   0.00 meters AMSL
+    45.5283 N, 237.0139 W, 27.27 kilometers,   0.00 meters AMSL
+    45.5283 N, 237.0130 W, 27.33 kilometers,   0.00 meters AMSL
+    45.5284 N, 237.0122 W, 27.40 kilometers,   0.00 meters AMSL
+    45.5284 N, 237.0114 W, 27.46 kilometers,   0.00 meters AMSL
+    45.5285 N, 237.0105 W, 27.53 kilometers,   0.00 meters AMSL
+    45.5285 N, 237.0097 W, 27.59 kilometers,   0.00 meters AMSL
+    45.5286 N, 237.0089 W, 27.66 kilometers,   0.00 meters AMSL
+    45.5286 N, 237.0081 W, 27.72 kilometers,   0.00 meters AMSL
+    45.5287 N, 237.0072 W, 27.79 kilometers,   0.00 meters AMSL
+    45.5287 N, 237.0064 W, 27.85 kilometers,   0.00 meters AMSL
+    45.5288 N, 237.0056 W, 27.92 kilometers,   0.00 meters AMSL
+    45.5288 N, 237.0047 W, 27.98 kilometers,   0.00 meters AMSL
+    45.5289 N, 237.0039 W, 28.05 kilometers,   0.00 meters AMSL
+    45.5289 N, 237.0031 W, 28.11 kilometers,   0.00 meters AMSL
+    45.5290 N, 237.0022 W, 28.18 kilometers,   0.00 meters AMSL
+    45.5290 N, 237.0014 W, 28.24 kilometers,   0.00 meters AMSL
+    45.5291 N, 237.0006 W, 28.31 kilometers,   0.00 meters AMSL
+    45.5291 N, 236.9997 W, 28.37 kilometers,   0.00 meters AMSL
+    45.5292 N, 236.9989 W, 28.44 kilometers,   0.00 meters AMSL
+    45.5292 N, 236.9981 W, 28.50 kilometers,   0.00 meters AMSL
+    45.5293 N, 236.9972 W, 28.57 kilometers,   0.00 meters AMSL
+    45.5293 N, 236.9964 W, 28.63 kilometers,   0.00 meters AMSL
+    45.5294 N, 236.9956 W, 28.70 kilometers,   0.00 meters AMSL
+    45.5294 N, 236.9947 W, 28.76 kilometers,   0.00 meters AMSL
+    45.5295 N, 236.9939 W, 28.83 kilometers,   0.00 meters AMSL
+    45.5295 N, 236.9931 W, 28.89 kilometers,   0.00 meters AMSL
+    45.5296 N, 236.9923 W, 28.96 kilometers,   0.00 meters AMSL
+    45.5296 N, 236.9914 W, 29.02 kilometers,   0.00 meters AMSL
+    45.5297 N, 236.9898 W, 29.15 kilometers,   0.00 meters AMSL
+    45.5298 N, 236.9889 W, 29.22 kilometers,   0.00 meters AMSL
+    45.5298 N, 236.9881 W, 29.28 kilometers,   0.00 meters AMSL
+    45.5298 N, 236.9873 W, 29.35 kilometers,   0.00 meters AMSL
+    45.5299 N, 236.9864 W, 29.41 kilometers,   0.00 meters AMSL
+    45.5299 N, 236.9856 W, 29.48 kilometers,   0.00 meters AMSL
+    45.5300 N, 236.9848 W, 29.54 kilometers,   0.00 meters AMSL
+    45.5300 N, 236.9839 W, 29.61 kilometers,   0.00 meters AMSL
+    45.5301 N, 236.9831 W, 29.67 kilometers,   0.00 meters AMSL
+    45.5301 N, 236.9823 W, 29.74 kilometers,   0.00 meters AMSL
+    45.5302 N, 236.9814 W, 29.80 kilometers,   0.00 meters AMSL
+    45.5302 N, 236.9806 W, 29.87 kilometers,   0.00 meters AMSL
+    45.5303 N, 236.9798 W, 29.93 kilometers,   0.00 meters AMSL
+    45.5303 N, 236.9789 W, 30.00 kilometers,   0.00 meters AMSL
+    45.5304 N, 236.9781 W, 30.06 kilometers,   0.00 meters AMSL
+    45.5304 N, 236.9773 W, 30.13 kilometers,   0.00 meters AMSL
+    45.5305 N, 236.9765 W, 30.19 kilometers,   0.00 meters AMSL
+    45.5305 N, 236.9756 W, 30.26 kilometers,   0.00 meters AMSL
+    45.5306 N, 236.9748 W, 30.32 kilometers,   0.00 meters AMSL
+    45.5306 N, 236.9740 W, 30.39 kilometers,   0.00 meters AMSL
+    45.5307 N, 236.9723 W, 30.52 kilometers,   0.00 meters AMSL
+    45.5308 N, 236.9715 W, 30.58 kilometers,   0.00 meters AMSL
+    45.5308 N, 236.9706 W, 30.65 kilometers,   0.00 meters AMSL
+    45.5309 N, 236.9698 W, 30.71 kilometers,   0.00 meters AMSL
+    45.5309 N, 236.9690 W, 30.78 kilometers,   0.00 meters AMSL
+    45.5310 N, 236.9681 W, 30.84 kilometers,   0.00 meters AMSL
+    45.5310 N, 236.9673 W, 30.91 kilometers,   0.00 meters AMSL
+    45.5311 N, 236.9665 W, 30.97 kilometers,   0.00 meters AMSL
+    45.5311 N, 236.9656 W, 31.04 kilometers,   0.00 meters AMSL
+    45.5312 N, 236.9648 W, 31.10 kilometers,   0.00 meters AMSL
+    45.5312 N, 236.9640 W, 31.17 kilometers,   0.00 meters AMSL
+    45.5313 N, 236.9631 W, 31.23 kilometers,   0.00 meters AMSL
+    45.5313 N, 236.9623 W, 31.30 kilometers,   0.00 meters AMSL
+    45.5314 N, 236.9615 W, 31.36 kilometers,   0.00 meters AMSL
+    45.5314 N, 236.9607 W, 31.43 kilometers,   0.00 meters AMSL
+    45.5315 N, 236.9598 W, 31.49 kilometers,   0.00 meters AMSL
+    45.5316 N, 236.9582 W, 31.62 kilometers,   0.00 meters AMSL
+    45.5316 N, 236.9573 W, 31.69 kilometers,   0.00 meters AMSL
+    45.5317 N, 236.9565 W, 31.75 kilometers,   0.00 meters AMSL
+    45.5317 N, 236.9557 W, 31.82 kilometers,   0.00 meters AMSL
+    45.5318 N, 236.9548 W, 31.88 kilometers,   0.00 meters AMSL
+    45.5318 N, 236.9540 W, 31.95 kilometers,   0.00 meters AMSL
+    45.5319 N, 236.9532 W, 32.01 kilometers,   0.00 meters AMSL
+    45.5319 N, 236.9523 W, 32.08 kilometers,   0.00 meters AMSL
+    45.5320 N, 236.9515 W, 32.14 kilometers,   0.00 meters AMSL
+    45.5320 N, 236.9507 W, 32.21 kilometers,   0.00 meters AMSL
+    45.5321 N, 236.9498 W, 32.27 kilometers,   0.00 meters AMSL
+    45.5321 N, 236.9490 W, 32.34 kilometers,   0.00 meters AMSL
+    45.5321 N, 236.9482 W, 32.40 kilometers,   0.00 meters AMSL
+    45.5322 N, 236.9465 W, 32.53 kilometers,   0.00 meters AMSL
+    45.5323 N, 236.9457 W, 32.60 kilometers,   0.00 meters AMSL
+    45.5323 N, 236.9449 W, 32.66 kilometers,   0.00 meters AMSL
+    45.5324 N, 236.9440 W, 32.73 kilometers,   0.00 meters AMSL
+    45.5324 N, 236.9432 W, 32.79 kilometers,   0.00 meters AMSL
+    45.5325 N, 236.9424 W, 32.86 kilometers,   0.00 meters AMSL
+    45.5325 N, 236.9415 W, 32.92 kilometers,   0.00 meters AMSL
+    45.5326 N, 236.9407 W, 32.99 kilometers,   0.00 meters AMSL
+    45.5326 N, 236.9399 W, 33.05 kilometers,   0.00 meters AMSL
+    45.5327 N, 236.9390 W, 33.12 kilometers,   0.00 meters AMSL
+    45.5327 N, 236.9382 W, 33.18 kilometers,   0.00 meters AMSL
+    45.5328 N, 236.9374 W, 33.25 kilometers,   0.00 meters AMSL
+    45.5329 N, 236.9357 W, 33.38 kilometers,   0.00 meters AMSL
+    45.5329 N, 236.9349 W, 33.44 kilometers,   0.00 meters AMSL
+    45.5330 N, 236.9340 W, 33.51 kilometers,   0.00 meters AMSL
+    45.5330 N, 236.9332 W, 33.57 kilometers,   0.00 meters AMSL
+    45.5331 N, 236.9324 W, 33.64 kilometers,   0.00 meters AMSL
+    45.5331 N, 236.9315 W, 33.70 kilometers,   0.00 meters AMSL
+    45.5332 N, 236.9307 W, 33.77 kilometers,   0.00 meters AMSL
+    45.5332 N, 236.9299 W, 33.83 kilometers,   0.00 meters AMSL
+    45.5333 N, 236.9291 W, 33.90 kilometers,   0.00 meters AMSL
+    45.5333 N, 236.9282 W, 33.96 kilometers,   0.00 meters AMSL
+    45.5334 N, 236.9274 W, 34.03 kilometers,   0.00 meters AMSL
+    45.5335 N, 236.9257 W, 34.16 kilometers,   0.00 meters AMSL
+    45.5335 N, 236.9249 W, 34.22 kilometers,   0.00 meters AMSL
+    45.5336 N, 236.9241 W, 34.29 kilometers,   0.00 meters AMSL
+    45.5336 N, 236.9232 W, 34.35 kilometers,   0.00 meters AMSL
+    45.5337 N, 236.9224 W, 34.42 kilometers,   0.00 meters AMSL
+    45.5337 N, 236.9216 W, 34.48 kilometers,   0.00 meters AMSL
+    45.5338 N, 236.9207 W, 34.55 kilometers,   0.00 meters AMSL
+    45.5338 N, 236.9199 W, 34.61 kilometers,   0.00 meters AMSL
+    45.5339 N, 236.9191 W, 34.68 kilometers,   0.00 meters AMSL
+    45.5340 N, 236.9174 W, 34.81 kilometers,   0.00 meters AMSL
+    45.5340 N, 236.9166 W, 34.87 kilometers,   0.00 meters AMSL
+    45.5340 N, 236.9157 W, 34.94 kilometers,   0.00 meters AMSL
+    45.5341 N, 236.9149 W, 35.00 kilometers,   0.00 meters AMSL
+    45.5341 N, 236.9141 W, 35.07 kilometers,   0.00 meters AMSL
+    45.5342 N, 236.9133 W, 35.13 kilometers,   0.00 meters AMSL
+    45.5342 N, 236.9124 W, 35.20 kilometers,   0.00 meters AMSL
+    45.5343 N, 236.9116 W, 35.26 kilometers,   0.00 meters AMSL
+    45.5343 N, 236.9108 W, 35.33 kilometers,   0.00 meters AMSL
+    45.5344 N, 236.9091 W, 35.46 kilometers,   0.00 meters AMSL
+    45.5345 N, 236.9083 W, 35.52 kilometers,   0.00 meters AMSL
+    45.5345 N, 236.9074 W, 35.59 kilometers,   0.00 meters AMSL
+    45.5346 N, 236.9066 W, 35.65 kilometers,   0.00 meters AMSL
+    45.5346 N, 236.9058 W, 35.72 kilometers,   0.00 meters AMSL
+    45.5347 N, 236.9049 W, 35.78 kilometers,   0.00 meters AMSL
+    45.5347 N, 236.9041 W, 35.85 kilometers,   0.00 meters AMSL
+    45.5348 N, 236.9033 W, 35.91 kilometers,   0.00 meters AMSL
+    45.5349 N, 236.9016 W, 36.04 kilometers,   0.00 meters AMSL
+    45.5349 N, 236.9008 W, 36.11 kilometers,   0.00 meters AMSL
+    45.5350 N, 236.8999 W, 36.17 kilometers,   0.00 meters AMSL
+    45.5350 N, 236.8991 W, 36.24 kilometers,   0.00 meters AMSL
+    45.5351 N, 236.8983 W, 36.30 kilometers,   0.00 meters AMSL
+    45.5351 N, 236.8974 W, 36.37 kilometers,   0.00 meters AMSL
+    45.5352 N, 236.8966 W, 36.43 kilometers,   0.00 meters AMSL
+    45.5352 N, 236.8958 W, 36.50 kilometers,   0.00 meters AMSL
+    45.5353 N, 236.8941 W, 36.63 kilometers,   0.00 meters AMSL
+    45.5354 N, 236.8933 W, 36.69 kilometers,   0.00 meters AMSL
+    45.5354 N, 236.8925 W, 36.76 kilometers,   0.00 meters AMSL
+    45.5355 N, 236.8916 W, 36.82 kilometers,   0.00 meters AMSL
+    45.5355 N, 236.8908 W, 36.89 kilometers,   0.00 meters AMSL
+    45.5355 N, 236.8900 W, 36.95 kilometers,   0.00 meters AMSL
+    45.5356 N, 236.8891 W, 37.02 kilometers,   0.00 meters AMSL
+    45.5357 N, 236.8875 W, 37.15 kilometers,   0.00 meters AMSL
+    45.5357 N, 236.8866 W, 37.21 kilometers,   0.00 meters AMSL
+    45.5358 N, 236.8858 W, 37.28 kilometers,   0.00 meters AMSL
+    45.5358 N, 236.8850 W, 37.34 kilometers,   0.00 meters AMSL
+    45.5359 N, 236.8841 W, 37.41 kilometers,   0.00 meters AMSL
+    45.5359 N, 236.8833 W, 37.47 kilometers,   0.00 meters AMSL
+    45.5360 N, 236.8825 W, 37.54 kilometers,   0.00 meters AMSL
+    45.5361 N, 236.8808 W, 37.67 kilometers,   0.00 meters AMSL
+    45.5361 N, 236.8800 W, 37.73 kilometers,   0.00 meters AMSL
+    45.5362 N, 236.8792 W, 37.80 kilometers,   0.00 meters AMSL
+    45.5362 N, 236.8783 W, 37.86 kilometers,   0.00 meters AMSL
+    45.5363 N, 236.8775 W, 37.93 kilometers,   0.00 meters AMSL
+    45.5363 N, 236.8767 W, 37.99 kilometers,   0.00 meters AMSL
+    45.5364 N, 236.8750 W, 38.12 kilometers,   0.00 meters AMSL
+    45.5365 N, 236.8742 W, 38.19 kilometers,   0.00 meters AMSL
+    45.5365 N, 236.8733 W, 38.25 kilometers,   0.00 meters AMSL
+    45.5366 N, 236.8725 W, 38.32 kilometers,   0.00 meters AMSL
+    45.5366 N, 236.8717 W, 38.38 kilometers,   0.00 meters AMSL
+    45.5367 N, 236.8708 W, 38.45 kilometers,   0.00 meters AMSL
+    45.5367 N, 236.8700 W, 38.51 kilometers,   0.00 meters AMSL
+    45.5368 N, 236.8683 W, 38.64 kilometers,   0.00 meters AMSL
+    45.5369 N, 236.8675 W, 38.71 kilometers,   0.00 meters AMSL
+    45.5369 N, 236.8667 W, 38.77 kilometers,   0.00 meters AMSL
+    45.5370 N, 236.8658 W, 38.84 kilometers,   0.00 meters AMSL
+    45.5370 N, 236.8650 W, 38.90 kilometers,   0.00 meters AMSL
+    45.5371 N, 236.8633 W, 39.03 kilometers,   0.00 meters AMSL
+    45.5371 N, 236.8625 W, 39.10 kilometers,   0.00 meters AMSL
+    45.5372 N, 236.8617 W, 39.16 kilometers,   0.00 meters AMSL
+    45.5372 N, 236.8609 W, 39.23 kilometers,   0.00 meters AMSL
+    45.5373 N, 236.8600 W, 39.29 kilometers,   0.00 meters AMSL
+    45.5373 N, 236.8592 W, 39.36 kilometers,   0.00 meters AMSL
+    45.5374 N, 236.8575 W, 39.49 kilometers,   0.00 meters AMSL
+    45.5375 N, 236.8567 W, 39.55 kilometers,   0.00 meters AMSL
+    45.5375 N, 236.8559 W, 39.62 kilometers,   0.00 meters AMSL
+    45.5376 N, 236.8550 W, 39.68 kilometers,   0.00 meters AMSL
+    45.5376 N, 236.8542 W, 39.75 kilometers,   0.00 meters AMSL
+    45.5377 N, 236.8525 W, 39.88 kilometers,   0.00 meters AMSL
+    45.5378 N, 236.8517 W, 39.94 kilometers,   0.00 meters AMSL
+    45.5378 N, 236.8509 W, 40.01 kilometers,   0.00 meters AMSL
+    45.5379 N, 236.8500 W, 40.07 kilometers,   0.00 meters AMSL
+    45.5379 N, 236.8492 W, 40.14 kilometers,   0.00 meters AMSL
+    45.5380 N, 236.8475 W, 40.27 kilometers,   0.00 meters AMSL
+    45.5381 N, 236.8467 W, 40.33 kilometers,   0.00 meters AMSL
+    45.5381 N, 236.8459 W, 40.40 kilometers,   0.00 meters AMSL
+    45.5382 N, 236.8450 W, 40.46 kilometers,   0.00 meters AMSL
+    45.5382 N, 236.8442 W, 40.53 kilometers,   0.00 meters AMSL
+    45.5383 N, 236.8426 W, 40.66 kilometers,   0.00 meters AMSL
+    45.5383 N, 236.8417 W, 40.72 kilometers,   0.00 meters AMSL
+    45.5384 N, 236.8409 W, 40.79 kilometers,   0.00 meters AMSL
+    45.5384 N, 236.8401 W, 40.85 kilometers,   0.00 meters AMSL
+    45.5385 N, 236.8392 W, 40.92 kilometers,   0.00 meters AMSL
+    45.5386 N, 236.8376 W, 41.05 kilometers,   0.00 meters AMSL
+    45.5386 N, 236.8367 W, 41.11 kilometers,   0.00 meters AMSL
+    45.5387 N, 236.8359 W, 41.18 kilometers,   0.00 meters AMSL
+    45.5387 N, 236.8351 W, 41.24 kilometers,   0.00 meters AMSL
+    45.5388 N, 236.8334 W, 41.37 kilometers,   0.00 meters AMSL
+    45.5389 N, 236.8326 W, 41.44 kilometers,   0.00 meters AMSL
+    45.5389 N, 236.8317 W, 41.50 kilometers,   0.00 meters AMSL
+    45.5390 N, 236.8309 W, 41.57 kilometers,   0.00 meters AMSL
+    45.5390 N, 236.8301 W, 41.63 kilometers,   0.00 meters AMSL
+    45.5391 N, 236.8284 W, 41.76 kilometers,   0.00 meters AMSL
+    45.5392 N, 236.8276 W, 41.83 kilometers,   0.00 meters AMSL
+    45.5392 N, 236.8267 W, 41.89 kilometers,   0.00 meters AMSL
+    45.5393 N, 236.8259 W, 41.96 kilometers,   0.00 meters AMSL
+    45.5394 N, 236.8243 W, 42.09 kilometers,   0.00 meters AMSL
+    45.5394 N, 236.8234 W, 42.15 kilometers,   0.00 meters AMSL
+    45.5394 N, 236.8226 W, 42.22 kilometers,   0.00 meters AMSL
+    45.5395 N, 236.8218 W, 42.28 kilometers,   0.00 meters AMSL
+    45.5396 N, 236.8201 W, 42.41 kilometers,   0.00 meters AMSL
+    45.5396 N, 236.8193 W, 42.48 kilometers,   0.00 meters AMSL
+    45.5397 N, 236.8184 W, 42.54 kilometers,   0.00 meters AMSL
+    45.5397 N, 236.8176 W, 42.61 kilometers,   0.00 meters AMSL
+    45.5398 N, 236.8159 W, 42.74 kilometers,   0.00 meters AMSL
+    45.5399 N, 236.8151 W, 42.80 kilometers,   0.00 meters AMSL
+    45.5399 N, 236.8143 W, 42.87 kilometers,   0.00 meters AMSL
+    45.5400 N, 236.8134 W, 42.93 kilometers,   0.00 meters AMSL
+    45.5401 N, 236.8118 W, 43.06 kilometers,   0.00 meters AMSL
+    45.5401 N, 236.8109 W, 43.13 kilometers,   0.00 meters AMSL
+    45.5402 N, 236.8101 W, 43.19 kilometers,   0.00 meters AMSL
+    45.5402 N, 236.8093 W, 43.26 kilometers,   0.00 meters AMSL
+    45.5403 N, 236.8076 W, 43.39 kilometers,   0.00 meters AMSL
+    45.5404 N, 236.8068 W, 43.45 kilometers,   0.00 meters AMSL
+    45.5404 N, 236.8060 W, 43.52 kilometers,   0.00 meters AMSL
+    45.5405 N, 236.8043 W, 43.65 kilometers,   0.00 meters AMSL
+    45.5405 N, 236.8035 W, 43.71 kilometers,   0.00 meters AMSL
+    45.5406 N, 236.8026 W, 43.78 kilometers,   0.00 meters AMSL
+    45.5406 N, 236.8018 W, 43.84 kilometers,   0.00 meters AMSL
+    45.5407 N, 236.8001 W, 43.97 kilometers,   0.00 meters AMSL
+    45.5408 N, 236.7993 W, 44.04 kilometers,   0.00 meters AMSL
+    45.5408 N, 236.7985 W, 44.10 kilometers,   0.00 meters AMSL
+    45.5409 N, 236.7968 W, 44.23 kilometers,   0.00 meters AMSL
+    45.5410 N, 236.7960 W, 44.30 kilometers,   0.00 meters AMSL
+    45.5410 N, 236.7951 W, 44.36 kilometers,   0.00 meters AMSL
+    45.5411 N, 236.7935 W, 44.49 kilometers,   0.00 meters AMSL
+    45.5412 N, 236.7926 W, 44.56 kilometers,   0.00 meters AMSL
+    45.5412 N, 236.7918 W, 44.62 kilometers,   0.00 meters AMSL
+    45.5413 N, 236.7910 W, 44.69 kilometers,   0.00 meters AMSL
+    45.5414 N, 236.7893 W, 44.82 kilometers,   0.00 meters AMSL
+    45.5414 N, 236.7885 W, 44.88 kilometers,   0.00 meters AMSL
+    45.5415 N, 236.7877 W, 44.95 kilometers,   0.00 meters AMSL
+    45.5415 N, 236.7860 W, 45.08 kilometers,   0.00 meters AMSL
+    45.5416 N, 236.7852 W, 45.14 kilometers,   0.00 meters AMSL
+    45.5416 N, 236.7843 W, 45.21 kilometers,   0.00 meters AMSL
+    45.5417 N, 236.7827 W, 45.34 kilometers,   0.00 meters AMSL
+    45.5418 N, 236.7818 W, 45.40 kilometers,   0.00 meters AMSL
+    45.5418 N, 236.7810 W, 45.47 kilometers,   0.00 meters AMSL
+    45.5419 N, 236.7793 W, 45.60 kilometers,   0.00 meters AMSL
+    45.5420 N, 236.7785 W, 45.66 kilometers,   0.00 meters AMSL
+    45.5420 N, 236.7777 W, 45.73 kilometers,   0.00 meters AMSL
+    45.5421 N, 236.7760 W, 45.86 kilometers,   0.00 meters AMSL
+    45.5422 N, 236.7752 W, 45.92 kilometers,   0.00 meters AMSL
+    45.5423 N, 236.7735 W, 46.05 kilometers,   0.00 meters AMSL
+    45.5423 N, 236.7727 W, 46.12 kilometers,   0.00 meters AMSL
+    45.5424 N, 236.7718 W, 46.18 kilometers,   0.00 meters AMSL
+    45.5425 N, 236.7702 W, 46.31 kilometers,   0.00 meters AMSL
+    45.5425 N, 236.7693 W, 46.38 kilometers,   0.00 meters AMSL
+    45.5425 N, 236.7685 W, 46.44 kilometers,   0.00 meters AMSL
+    45.5426 N, 236.7669 W, 46.57 kilometers,   0.00 meters AMSL
+    45.5427 N, 236.7660 W, 46.64 kilometers,   0.00 meters AMSL
+    45.5428 N, 236.7644 W, 46.77 kilometers,   0.00 meters AMSL
+    45.5428 N, 236.7635 W, 46.83 kilometers,   0.00 meters AMSL
+    45.5429 N, 236.7627 W, 46.90 kilometers,   0.00 meters AMSL
+    45.5430 N, 236.7610 W, 47.03 kilometers,   0.00 meters AMSL
+    45.5430 N, 236.7602 W, 47.09 kilometers,   0.00 meters AMSL
+    45.5431 N, 236.7594 W, 47.16 kilometers,   0.00 meters AMSL
+    45.5432 N, 236.7577 W, 47.29 kilometers,   0.00 meters AMSL
+    45.5432 N, 236.7569 W, 47.35 kilometers,   0.00 meters AMSL
+    45.5433 N, 236.7552 W, 47.48 kilometers,   0.00 meters AMSL
+    45.5434 N, 236.7544 W, 47.55 kilometers,   0.00 meters AMSL
+    45.5434 N, 236.7527 W, 47.68 kilometers,   0.00 meters AMSL
+    45.5435 N, 236.7519 W, 47.74 kilometers,   0.00 meters AMSL
+    45.5435 N, 236.7510 W, 47.81 kilometers,   0.00 meters AMSL
+    45.5436 N, 236.7494 W, 47.94 kilometers,   0.00 meters AMSL
+    45.5437 N, 236.7485 W, 48.01 kilometers,   0.00 meters AMSL
+    45.5438 N, 236.7469 W, 48.14 kilometers,   0.00 meters AMSL
+    45.5438 N, 236.7461 W, 48.20 kilometers,   0.00 meters AMSL
+    45.5439 N, 236.7444 W, 48.33 kilometers,   0.00 meters AMSL
+    45.5440 N, 236.7436 W, 48.40 kilometers,   0.00 meters AMSL
+    45.5441 N, 236.7419 W, 48.53 kilometers,   0.00 meters AMSL
+    45.5441 N, 236.7411 W, 48.59 kilometers,   0.00 meters AMSL
+    45.5442 N, 236.7402 W, 48.66 kilometers,   0.00 meters AMSL
+    45.5443 N, 236.7386 W, 48.79 kilometers,   0.00 meters AMSL
+    45.5443 N, 236.7377 W, 48.85 kilometers,   0.00 meters AMSL
+    45.5444 N, 236.7361 W, 48.98 kilometers,   0.00 meters AMSL
+    45.5444 N, 236.7352 W, 49.05 kilometers,   0.00 meters AMSL
+    45.5445 N, 236.7336 W, 49.18 kilometers,   0.00 meters AMSL
+    45.5446 N, 236.7327 W, 49.24 kilometers,   0.00 meters AMSL
+    45.5447 N, 236.7311 W, 49.37 kilometers,   0.00 meters AMSL
+    45.5447 N, 236.7302 W, 49.44 kilometers,   0.00 meters AMSL
+    45.5448 N, 236.7286 W, 49.57 kilometers,   0.00 meters AMSL
+    45.5449 N, 236.7278 W, 49.63 kilometers,   0.00 meters AMSL
+    45.5450 N, 236.7261 W, 49.76 kilometers,   0.00 meters AMSL
+    45.5450 N, 236.7253 W, 49.83 kilometers,   0.00 meters AMSL
+    45.5451 N, 236.7236 W, 49.96 kilometers,   0.00 meters AMSL
+    45.5452 N, 236.7219 W, 50.09 kilometers,   0.00 meters AMSL
+    45.5452 N, 236.7211 W, 50.15 kilometers,   0.00 meters AMSL
+    45.5453 N, 236.7194 W, 50.28 kilometers,   0.00 meters AMSL
+    45.5454 N, 236.7186 W, 50.35 kilometers,   0.00 meters AMSL
+    45.5455 N, 236.7169 W, 50.48 kilometers,   0.00 meters AMSL
+    45.5455 N, 236.7161 W, 50.54 kilometers,   0.00 meters AMSL
+    45.5456 N, 236.7144 W, 50.67 kilometers,   0.00 meters AMSL
+    45.5457 N, 236.7136 W, 50.74 kilometers,   0.00 meters AMSL
+    45.5458 N, 236.7119 W, 50.87 kilometers,   0.00 meters AMSL
+    45.5459 N, 236.7103 W, 51.00 kilometers,   0.00 meters AMSL
+    45.5459 N, 236.7094 W, 51.06 kilometers,   0.00 meters AMSL
+    45.5460 N, 236.7078 W, 51.19 kilometers,   0.00 meters AMSL
+    45.5460 N, 236.7070 W, 51.26 kilometers,   0.00 meters AMSL
+    45.5461 N, 236.7053 W, 51.39 kilometers,   0.00 meters AMSL
+    45.5462 N, 236.7036 W, 51.52 kilometers,   0.00 meters AMSL
+    45.5463 N, 236.7028 W, 51.58 kilometers,   0.00 meters AMSL
+    45.5464 N, 236.7011 W, 51.71 kilometers,   0.00 meters AMSL
+    45.5465 N, 236.6995 W, 51.84 kilometers,   0.00 meters AMSL
+    45.5465 N, 236.6986 W, 51.91 kilometers,   0.00 meters AMSL
+    45.5466 N, 236.6970 W, 52.04 kilometers,   0.00 meters AMSL
+    45.5467 N, 236.6953 W, 52.17 kilometers,   0.00 meters AMSL
+    45.5468 N, 236.6945 W, 52.23 kilometers,   0.00 meters AMSL
+    45.5468 N, 236.6928 W, 52.36 kilometers,   0.00 meters AMSL
+    45.5469 N, 236.6911 W, 52.49 kilometers,   0.00 meters AMSL
+    45.5470 N, 236.6903 W, 52.56 kilometers,   0.00 meters AMSL
+    45.5471 N, 236.6886 W, 52.69 kilometers,   0.00 meters AMSL
+    45.5472 N, 236.6870 W, 52.82 kilometers,   0.00 meters AMSL
+    45.5473 N, 236.6853 W, 52.95 kilometers,   0.00 meters AMSL
+    45.5473 N, 236.6845 W, 53.01 kilometers,   0.00 meters AMSL
+    45.5474 N, 236.6828 W, 53.14 kilometers,   0.00 meters AMSL
+    45.5475 N, 236.6812 W, 53.27 kilometers,   0.00 meters AMSL
+    45.5476 N, 236.6795 W, 53.40 kilometers,   0.00 meters AMSL
+    45.5477 N, 236.6778 W, 53.53 kilometers,   0.00 meters AMSL
+    45.5477 N, 236.6770 W, 53.60 kilometers,   0.00 meters AMSL
+    45.5478 N, 236.6753 W, 53.73 kilometers,   0.00 meters AMSL
+    45.5479 N, 236.6737 W, 53.86 kilometers,   0.00 meters AMSL
+    45.5480 N, 236.6720 W, 53.99 kilometers,   0.00 meters AMSL
+    45.5481 N, 236.6703 W, 54.12 kilometers,   0.00 meters AMSL
+    45.5482 N, 236.6687 W, 54.25 kilometers,   0.00 meters AMSL
+    45.5482 N, 236.6678 W, 54.31 kilometers,   0.00 meters AMSL
+    45.5483 N, 236.6662 W, 54.44 kilometers,   0.00 meters AMSL
+    45.5484 N, 236.6645 W, 54.57 kilometers,   0.00 meters AMSL
+    45.5485 N, 236.6629 W, 54.70 kilometers,   0.00 meters AMSL
+    45.5486 N, 236.6612 W, 54.83 kilometers,   0.00 meters AMSL
+    45.5487 N, 236.6595 W, 54.96 kilometers,   0.00 meters AMSL
+    45.5488 N, 236.6579 W, 55.09 kilometers,   0.00 meters AMSL
+    45.5489 N, 236.6562 W, 55.22 kilometers,   0.00 meters AMSL
+    45.5490 N, 236.6545 W, 55.35 kilometers,   0.00 meters AMSL
+    45.5491 N, 236.6529 W, 55.48 kilometers,   0.00 meters AMSL
+    45.5492 N, 236.6512 W, 55.61 kilometers,   0.00 meters AMSL
+    45.5493 N, 236.6495 W, 55.74 kilometers,   0.00 meters AMSL
+    45.5494 N, 236.6479 W, 55.87 kilometers,   0.00 meters AMSL
+    45.5495 N, 236.6462 W, 56.00 kilometers,   0.00 meters AMSL
+    45.5496 N, 236.6437 W, 56.20 kilometers,   0.00 meters AMSL
+    45.5497 N, 236.6420 W, 56.33 kilometers,   0.00 meters AMSL
+    45.5498 N, 236.6404 W, 56.46 kilometers,   0.00 meters AMSL
+    45.5499 N, 236.6387 W, 56.59 kilometers,   0.00 meters AMSL
+    45.5500 N, 236.6371 W, 56.72 kilometers,   0.00 meters AMSL
+    45.5501 N, 236.6354 W, 56.85 kilometers,   0.00 meters AMSL
+    45.5502 N, 236.6329 W, 57.04 kilometers,   0.00 meters AMSL
+    45.5503 N, 236.6312 W, 57.17 kilometers,   0.00 meters AMSL
+    45.5504 N, 236.6296 W, 57.30 kilometers,   0.00 meters AMSL
+    45.5505 N, 236.6271 W, 57.50 kilometers,   0.00 meters AMSL
+    45.5506 N, 236.6254 W, 57.63 kilometers,   0.00 meters AMSL
+    45.5508 N, 236.6229 W, 57.82 kilometers,   0.00 meters AMSL
+    45.5509 N, 236.6212 W, 57.95 kilometers,   0.00 meters AMSL
+    45.5510 N, 236.6187 W, 58.15 kilometers,   0.00 meters AMSL
+    45.5511 N, 236.6171 W, 58.28 kilometers,   0.00 meters AMSL
+    45.5512 N, 236.6146 W, 58.47 kilometers,   0.00 meters AMSL
+    45.5513 N, 236.6129 W, 58.60 kilometers,   0.00 meters AMSL
+    45.5515 N, 236.6104 W, 58.80 kilometers,   0.00 meters AMSL
+    45.5516 N, 236.6079 W, 58.99 kilometers,   0.00 meters AMSL
+    45.5517 N, 236.6054 W, 59.19 kilometers,   0.00 meters AMSL
+    45.5519 N, 236.6029 W, 59.38 kilometers,   0.00 meters AMSL
+    45.5520 N, 236.6004 W, 59.58 kilometers,   0.00 meters AMSL
+    45.5522 N, 236.5979 W, 59.77 kilometers,   0.00 meters AMSL
+    45.5523 N, 236.5954 W, 59.97 kilometers,   0.00 meters AMSL
+    45.5524 N, 236.5929 W, 60.16 kilometers,   0.00 meters AMSL
+    45.5526 N, 236.5905 W, 60.36 kilometers,   0.00 meters AMSL
+    45.5528 N, 236.5871 W, 60.62 kilometers,   0.00 meters AMSL
+    45.5529 N, 236.5846 W, 60.81 kilometers,   0.00 meters AMSL
+    45.5531 N, 236.5813 W, 61.07 kilometers,   0.00 meters AMSL
+    45.5533 N, 236.5780 W, 61.33 kilometers,   0.00 meters AMSL
+    45.5534 N, 236.5746 W, 61.59 kilometers,   0.00 meters AMSL
+    45.5537 N, 236.5705 W, 61.92 kilometers,   0.00 meters AMSL
+    45.5539 N, 236.5663 W, 62.24 kilometers,   0.00 meters AMSL
+    45.5541 N, 236.5622 W, 62.57 kilometers,   0.00 meters AMSL
+    45.5544 N, 236.5572 W, 62.96 kilometers,   0.00 meters AMSL
+    45.5547 N, 236.5522 W, 63.35 kilometers,   0.00 meters AMSL
+    45.5551 N, 236.5447 W, 63.93 kilometers,   0.00 meters AMSL
+    45.5557 N, 236.5330 W, 64.84 kilometers,   0.00 meters AMSL
 
-The first Fresnel zone is clear.
+Antenna at Rx-Site-01 must be raised to at least 252.07 meters AGL
+to clear all obstructions detected by SPLAT!.
 
-60% of the first Fresnel zone is clear.
+Antenna at Rx-Site-01 must be raised to at least 690.07 meters AGL
+to clear the first Fresnel zone.
+
+Antenna at Rx-Site-01 must be raised to at least 489.20 meters AGL
+to clear 60% of the first Fresnel zone.
