@@ -1,0 +1,27 @@
+
+		--==[ SPLAT! v1.4.2 Path Analysis ]==--
+
+---------------------------------------------------------------------------
+
+Transmitter site: TX-site-01
+Site location: 45.5023 North / 237.0132 West (45° 30' 8" N / 237° 0' 47" W)
+Ground elevation: 0.00 feet AMSL
+Antenna height: 450.00 feet AGL / 450.00 feet AMSL
+Distance to Rx-Site-01: 16.92 miles
+Azimuth to Rx-Site-01: 271.23 degrees
+Depression angle to Rx-Site-01: -0.1303 degrees
+
+---------------------------------------------------------------------------
+
+Receiver site: Rx-Site-01
+Site location: 45.5071 North / 237.3625 West (45° 30' 25" N / 237° 21' 45" W)
+Ground elevation: 0.00 feet AMSL
+Antenna height: 390.00 feet AGL / 390.00 feet AMSL
+Distance to TX-site-01: 16.92 miles
+Azimuth to TX-site-01: 90.98 degrees
+Depression angle to TX-site-01: -0.0534 degrees
+
+---------------------------------------------------------------------------
+
+
+No obstructions to LOS path due to terrain were detected by SPLAT!
