@@ -4,8 +4,8 @@
 ---------------------------------------------------------------------------
 
 Site location: 45.5805 North / 236.0651 West (45° 34' 49" N / 236° 3' 54" W)
-Ground elevation: 0.00 meters AMSL
-Antenna height: 76.20 meters AGL / 76.20 meters AMSL
+Ground elevation: 0.00 feet AMSL
+Antenna height: 250.00 feet AGL / 250.00 feet AMSL
 
 ---------------------------------------------------------------------------
 
